@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Map Locator</title>
+    
+    <script src="https://apis.mapmyindia.com/advancedmaps/v1/4ff1cda93cf93a8c532147089cc0c46f/map_load?v=1.5"></script>
+</head>
+<body>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f0f0f0;
+    }
+    
+    .map-container {
+        display: flex;
+        width: 100%;
+        height: 100vh;
+    }
+    
+    #map {
+        width: 100%;
+        height: 100%;
+    }
+</style>
+    <div class="map-container">
+        <div id="map"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

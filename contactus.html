@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contactus.css">
+</head>
+<body>
+    <header class="header">
+        <h1><i>TravelTrove</i></h1>
+        <nav>
+            <a href="http://127.0.0.1:5501/webd26/home.html">Home</a>
+            <a href="http://127.0.0.1:5501/webd26/about.html">About</a>
+            
+        </nav>
+    </header>
+    
+    <main class="contact-container">
+        <h1>Contact Us</h1>
+        <form id="contactForm">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required>
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button onclick="window.location.href='home.html';">Submit</button>
+        </form>
+        <p id="statusMessage"></p>
+    </main>
+    
+    <footer class="footer">
+        <p>&copy; 2024 TravelTrove. All rights reserved.</p>
+    </footer>
+
+    <script src="contactus.js"></script>
+</body>
+</html>

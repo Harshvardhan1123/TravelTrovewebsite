@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Booking</title>
+    <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Travel Booking</h1>
+        <nav>
+            <a href="http://127.0.0.1:5501/webd26/home.html">Home</a>
+            <a href="http://127.0.0.1:5501/webd26/about.html">About</a>
+            <a href="http://127.0.0.1:5501/webd26/contactus.html">Contact</a>
+        </nav>
+    </header>
+    
+    <main class="booking-container">
+        <h2>Book Your Travel</h2>
+        <section class="booking-option">
+            <h3>Bus Booking</h3>
+            <form class="booking-form">
+                <label for="bus-from">From:</label>
+                <input type="text" id="bus-from" name="bus-from" required>
+                
+                <label for="bus-to">To:</label>
+                <input type="text" id="bus-to" name="bus-to" required>
+                
+                <label for="bus-date">Date:</label>
+                <input type="date" id="bus-date" name="bus-date" required>
+                
+                <button type="submit">Search Buses</button>
+            </form>
+        </section>
+        
+        <section class="booking-option">
+            <h3>Train Booking</h3>
+            <form class="booking-form">
+                <label for="train-from">From:</label>
+                <input type="text" id="train-from" name="train-from" required>
+                
+                <label for="train-to">To:</label>
+                <input type="text" id="train-to" name="train-to" required>
+                
+                <label for="train-date">Date:</label>
+                <input type="date" id="train-date" name="train-date" required>
+                
+                <button type="submit">Search Trains</button>
+            </form>
+        </section>
+        
+        <section class="booking-option">
+            <h3>Flight Booking</h3>
+            <form class="booking-form">
+                <label for="flight-from">From:</label>
+                <input type="text" id="flight-from" name="flight-from" required>
+                
+                <label for="flight-to">To:</label>
+                <input type="text" id="flight-to" name="flight-to" required>
+                
+                <label for="flight-date">Date:</label>
+                <input type="date" id="flight-date" name="flight-date" required>
+                
+                <button type="submit">Search Flights</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <p>&copy; 2024 Travel Booking. All rights reserved.</p>
+    </footer>
+</body>
+</html>
